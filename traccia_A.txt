@@ -1,0 +1,63 @@
+Centro Tecnologico,zona business
+Quartiere Residenziale,zona residenziale
+Quartiere Creativo,zona business
+Parco Tecnologico,zona residenziale
+Distretto Innovativo,zona business
+Zona Futuristica,zona residenziale
+Area Tecnologica Sud,zona istruzione
+Innovation Park,zona istruzione
+###
+CodersXpress,150,John Doe, Jane Smith,zona business
+TechGeniuses,180,Bob Johnson, Alice Adams,zona istruzione
+InventiveMinds,120,Chris Brown, Emma Davis,zona business
+FutureCreators,200,Michael White, Sarah Taylor,zona business
+SmartSolutions,170,David Green, Olivia Reed,zona residenziale
+CreativeTechies,130,Lisa Black, Mark Turner,zona residenziale
+DigitalInnovators,160,Emily Clark, Brian Parker,zona istruzione
+TechExplorers,140,Andrew Baker, Jessica Turner,zona business
+CodeMasters,190,Kevin Garcia, Sophia Wright,zona istruzione
+InnovationHub,110,Thomas Mitchell, Ashley Cooper,zona istruzione
+###
+App Innovativa,Centro Tecnologico,Intelligenza Artificiale,alta,30
+Codifica Efficientemente,Quartiere Residenziale,Internet delle Cose,media,20
+Sfida Creativa,Centro Tecnologico,Realta Virtuale,bassa,15
+Soluzioni Blockchain,Quartiere Residenziale,Blockchain,alta,25
+Innovazione Digitale,Quartiere Creativo,Internet delle Cose,alta,35
+Codice Futuristico,Centro Tecnologico,Realta Virtuale,media,25
+TechChallenge,Quartiere Creativo,Intelligenza Artificiale,bassa,20
+SmartCity Solutions,Quartiere Residenziale,Blockchain,media,30
+DigitalTransformation,Parco Tecnologico,Realta Virtuale,alta,40
+DataDriven Solutions,Distretto Innovativo,Intelligenza Artificiale,alta,35
+CreativeCoding,Parco Tecnologico,Internet delle Cose,bassa,15
+FutureTech,Distretto Innovativo,Blockchain,media,30
+SmartLiving,Parco Tecnologico,Internet delle Cose,media,25
+NextGen Innovators,Distretto Innovativo,Realta Virtuale,bassa,20
+TechInclusion,Parco Tecnologico,Intelligenza Artificiale,media,30
+InnovativeDesign,Distretto Innovativo,Realta Virtuale,alta,40
+ConnectedCities,Parco Tecnologico,Blockchain,alta,35
+TechSustainability,Distretto Innovativo,Internet delle Cose,bassa,15
+DigitalAccessibility,Quartiere Residenziale,Intelligenza Artificiale,media,25
+CommunityTech,Quartiere Creativo,Blockchain,alta,35
+SmartHomes,Zona Futuristica,Internet delle Cose,alta,30
+FuturisticCoding,Zona Futuristica,Realta Virtuale,media,25
+InnovationHub2,Area Tecnologica Sud,Intelligenza Artificiale,bassa,20
+TechInnovationZone,Innovation Park,Blockchain,alta,35
+FutureLiving,Area Tecnologica Sud,Internet delle Cose,media,25
+CityInnovators,Innovation Park,Realta Virtuale,alta,40
+TechDiscovery,Area Tecnologica Sud,Intelligenza Artificiale,alta,35
+SmartCommunities,Innovation Park,Blockchain,bassa,15
+NextGen Innovators,Distretto Innovativo,Realta Virtuale,bassa,20
+TechInclusion,Parco Tecnologico,Intelligenza Artificiale,media,30
+InnovativeDesign,Distretto Innovativo,Realta Virtuale,alta,40
+ConnectedCities,Parco Tecnologico,Blockchain,alta,35
+TechSustainability,Distretto Innovativo,Internet delle Cose,bassa,15
+DigitalAccessibility,Quartiere Residenziale,Intelligenza Artificiale,media,25
+CommunityTech,Quartiere Creativo,Blockchain,alta,35
+SmartHomes,Zona Futuristica,Internet delle Cose,alta,30
+FuturisticCoding,Zona Futuristica,Realta Virtuale,media,25
+InnovationHub2,Area Tecnologica Sud,Intelligenza Artificiale,bassa,20
+TechInnovationZone,Innovation Park,Blockchain,alta,35
+FutureLiving,Area Tecnologica Sud,Internet delle Cose,media,25
+CityInnovators,Innovation Park,Realta Virtuale,alta,40
+TechDiscovery,Area Tecnologica Sud,Intelligenza Artificiale,alta,35
+SmartCommunities,Innovation Park,Blockchain,bassa,15
