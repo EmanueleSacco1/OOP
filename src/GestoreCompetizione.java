@@ -33,26 +33,30 @@ public class GestoreCompetizione {
         sfide.addAll(dataReader.leggiDatoGara("SfidaTecnologica").stream().map(dato -> (SfidaTecnologica) dato).collect(Collectors.toList()));
         zone.addAll(dataReader.leggiDatoGara("Zona").stream().map(dato -> (Zona) dato).collect(Collectors.toList()));
     }
-
+    //Il metodo caricaDati() legge i dati della gara dal file di testo, li trasforma in oggetti appropriati e li carica nelle liste corrispondenti
 
     // Task 1: Analisi delle Squadre per Zona (questo blocco di codice analizza le squadre per zona, identifica il numero di squadre in ogni zona e trova la squadra con il punteggio più alto in ogni zona).
-    public void analisiSquadrePerZona() {
+     public void analisiSquadrePerZona(List<Zona> zone) {
         Map<String, List<Squadra>> squadrePerZona = new HashMap<>();
         for (Squadra squadra : squadre) {
-            String zona = squadra.getTipoZonaAppartenenza();
-            if (!squadrePerZona.containsKey(zona)) {
-                squadrePerZona.put(zona, new ArrayList<>());
+            String tipoZona = squadra.getTipoZonaAppartenenza();
+            for (Zona zona : zone) {
+                if (zona.getTipoZona().equals(tipoZona)) {
+                    if (!squadrePerZona.containsKey(zona.getNome())) {
+                        squadrePerZona.put(zona.getNome(), new ArrayList<>());
+                    }
+                    squadrePerZona.get(zona.getNome()).add(squadra);
+                }
             }
-            squadrePerZona.get(zona).add(squadra);
         }
 
         for (Map.Entry<String, List<Squadra>> entry : squadrePerZona.entrySet()) {
-            String zona = entry.getKey();
+            String nomeZona = entry.getKey();
             List<Squadra> squadreInZona = entry.getValue();
             Squadra squadraConPunteggioMaggiore = Collections.max(squadreInZona, Comparator.comparing(Squadra::getPunteggio));
-            System.out.println(zona + ": " + squadreInZona.size() + ", " + squadraConPunteggioMaggiore.getNome());
+            System.out.println(nomeZona + ": " + squadreInZona.size() + ", " + squadraConPunteggioMaggiore.getNome());
         }
-    }
+     }
 
     // Task 2: Calcolo del Punteggio Totale per Ogni Zona (questo blocco di codice calcola e stampa il punteggio totale accumulato per ogni zona basato sulle sfide tecnologiche).
     public void calcoloPunteggioTotalePerOgniZona() {
